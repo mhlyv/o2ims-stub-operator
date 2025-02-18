@@ -7,4 +7,4 @@ metadata:
   name: o2ims-sample
 spec:
   # TODO(user): Add fields here
-  endpoint: "http://172.17.0.1:9000/o2ims-infrastructureInventory/api_versions"
+  endpoint: "http://172.17.0.1:9000/o2ims-infrastructureInventory/v1/deploymentManagers"
