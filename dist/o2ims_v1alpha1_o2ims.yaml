@@ -1,0 +1,10 @@
+apiVersion: o2ims.example.com/v1alpha1
+kind: O2Ims
+metadata:
+  labels:
+    app.kubernetes.io/name: o2ims-stub-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: o2ims-sample
+spec:
+  # TODO(user): Add fields here
+  endpoint: "http://172.17.0.1:9000/o2ims-infrastructureInventory/api_versions"
